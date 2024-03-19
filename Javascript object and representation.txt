@@ -1,0 +1,46 @@
+Javascript object:
+
+object in Javascript is one of the most important datatype.object are quite different from other datatypes.
+
+In JS object we can store multiple value on  multiple data type in a single object.
+
+object is a reference data type.data are stored in key&value pairs.
+
+In javaScript we can create a object in two ways:
+
+create a object using new keyword:
+
+var objectname=new object();
+
+example:
+
+var Test=new object();
+
+assign a value to property
+
+syntax:
+
+objectname.propertyname=value;
+
+example:
+
+Test.name="Roshan";
+Test.dob="7/11/1999";
+
+
+create a object in javascript using obect literal method:
+
+var Test={name:"Roshan",age:23,dob:"7/11/1999",mail:"roshangym1999@gmail.com"}
+
+create a object using constructor method:
+
+function Test(name,age)
+{
+    this.name=name;
+    this.age=age;
+
+}
+let Testobject=new test('Roshan',23);
+console.log(Testobject.name); // output => Roshan
+
+
